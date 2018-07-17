@@ -36,4 +36,4 @@ Install the correct versions of each package, which are listed by the command:
 
 Add `"extends": "@opengovsg/eslint-config-opengovsg"` to your .eslintrc.
 
-Instructions derived from [eslint-config-airbnb-base](https://www.npmjs.com/package/eslint-config-airbnb-base).
+Instructions derived from [eslint-config-standard](https://www.npmjs.com/package/eslint-config-standard).
