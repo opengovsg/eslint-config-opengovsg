@@ -4,7 +4,7 @@ This package provides [Open Government Product](http://open.gov.sg/)'s base JS .
 
 ## Usage
 
-Our default export contains all of our ESLint rules, including ECMAScript 6+. It requires `eslint`, `eslint-config-prettier` and `eslint-config-google`.
+Our default export contains all of our ESLint rules, including ECMAScript 6+. It requires `eslint` and `eslint-config-standard`.
 
 Install the correct versions of each package, which are listed by the command:
 
