@@ -8,6 +8,7 @@ module.exports = {
   },
   "rules": {
     "no-console": ["error", {"allow": ["warn", "error"]}],
-    "comma-dangle": ["error", "always-multiline"]
+    "comma-dangle": ["error", "always-multiline"],
+    "newline-per-chained-call": ["error"],
   }
 }
