@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/datagovsg/eslint-config-opengovsg.git"
+    "url": "git+https://github.com/opengovsg/eslint-config-opengovsg.git"
   },
   "keywords": [
     "eslint",
@@ -17,9 +17,9 @@
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/datagovsg/eslint-config-opengovsg/issues"
+    "url": "https://github.com/opengovsg/eslint-config-opengovsg/issues"
   },
-  "homepage": "https://github.com/datagovsg/eslint-config-opengovsg#readme",
+  "homepage": "https://github.com/opengovsg/eslint-config-opengovsg#readme",
   "peerDependencies": {
     "eslint": ">=4.11.0",
     "eslint-config-standard": ">=11.0.0",
