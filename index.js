@@ -7,8 +7,44 @@ module.exports = {
     "es6": true
   },
   "rules": {
-    "no-console": ["error", {"allow": ["warn", "error"]}],
-    "comma-dangle": ["error", "always-multiline"],
-    "newline-per-chained-call": ["error"],
+    "comma-dangle": [
+      "error",
+      "always-multiline"
+    ],
+    "indent": [
+      "error",
+      2
+    ],
+    "newline-per-chained-call": [
+      "error",
+      {
+        "ignoreChainWithDepth": 2
+      }
+    ],
+    "no-console": [
+      "warn",
+      {
+        "allow": [
+          "warn",
+          "error"
+        ]
+      }
+    ],
+    "quotes": [
+      "error",
+      "single"
+    ],
+    "space-before-function-paren": [
+      "error",
+      {
+        "anonymous": "always",
+        "named": "never",
+        "asyncArrow": "always"
+      }
+    ],
+    "semi": [
+      "error",
+      "never"
+    ]
   }
 }
