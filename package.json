@@ -1,6 +1,6 @@
 {
   "name": "@opengovsg/eslint-config-opengovsg",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "eslint configs for opengovsg",
   "main": "index.js",
   "scripts": {
