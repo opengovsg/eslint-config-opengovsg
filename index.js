@@ -1,6 +1,6 @@
 module.exports = {
   "extends": [
-    "standard"
+    "eslint:recommended"
   ],
   "env": {
     "node": true,
