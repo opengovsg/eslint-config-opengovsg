@@ -1,0 +1,14 @@
+name: Check package version
+
+on: [pull_request]
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Bump the version in package.json if this step fails. A new version is needed to publish this package on merge.
+        run: |
+          git fetch origin main
+          git diff origin/main..HEAD -- package.json | grep "+  \"version\": \""
+          git diff origin/main..HEAD -- package-lock.json | grep "+  \"version\": \""
