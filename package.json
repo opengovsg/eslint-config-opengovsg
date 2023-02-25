@@ -1,26 +1,50 @@
 {
   "name": "eslint-config-opengovsg",
-  "version": "2.0.0-rc0",
-  "description": "eslint configs for opengovsg",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "description": "ESLint configs for Open Government Products",
+  "version": "2.0.0",
+  "author": "Open Government Products, GovTech Singapore (https://open.gov.sg)",
+  "bugs": {
+    "url": "https://github.com/opengovsg/eslint-config-opengovsg/issues"
+  },
+  "devDependencies": {
+    "@pulumi/eslint-plugin": "^0.1.0-rc3",
+    "@typescript-eslint/eslint-plugin": "^5.53.0",
+    "eslint-config-prettier": "^8.6.0",
+    "eslint-plugin-import": "^2.27.5",
+    "eslint-plugin-prettier": "^4.2.1",
+    "eslint-plugin-simple-import-sort": "^10.0.0"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "files": [
+    "**/*.js"
+  ],
+  "homepage": "https://github.com/opengovsg/eslint-config-opengovsg#readme",
+  "keywords": [
+    "eslint",
+    "eslintconfig"
+  ],
+  "license": "MIT",
+  "main": "typescript.js",
+  "peerDependencies": {
+    "@pulumi/eslint-plugin": "^0.1.0-rc3",
+    "@typescript-eslint/eslint-plugin": "^5.53.0",
+    "eslint": "^8.0.0",
+    "eslint-config-prettier": "^8.6.0",
+    "eslint-plugin-import": "^2.27.5",
+    "eslint-plugin-prettier": "^4.2.1",
+    "eslint-plugin-simple-import-sort": "^10.0.0"
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org",
+    "access": "public"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/opengovsg/eslint-config-opengovsg.git"
   },
-  "keywords": [
-    "eslint",
-    "eslintconfig"
-  ],
-  "author": "Open Government Products, GovTech Singapore (https://open.gov.sg)",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/opengovsg/eslint-config-opengovsg/issues"
-  },
-  "homepage": "https://github.com/opengovsg/eslint-config-opengovsg#readme",
-  "peerDependencies": {
-    "eslint": ">=4.11.0"
+  "scripts": {
+    "lint": "eslint ."
   }
 }
