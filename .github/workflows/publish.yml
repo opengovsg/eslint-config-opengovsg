@@ -5,6 +5,7 @@ on:
     branches:
       - master
       - main
+      - chore/restart-again
 
 jobs:
   publish:
