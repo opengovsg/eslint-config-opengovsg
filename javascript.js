@@ -1,3 +1,4 @@
+const { resolveConfig } = require('./utils/prettier')
 /**
  * Base JavaScript config does 2 things:
  * - Apply basic recommended rule sets
@@ -29,5 +30,6 @@ module.exports = {
     // https://github.com/lydell/eslint-plugin-simple-import-sort#usage
     'simple-import-sort/exports': 'error',
     'simple-import-sort/imports': 'error',
+    'prettier/prettier': ['error', resolveConfig()],
   },
 }
