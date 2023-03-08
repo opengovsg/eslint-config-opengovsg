@@ -1,7 +1,7 @@
 {
   "name": "eslint-config-opengovsg",
   "description": "ESLint configs for Open Government Products",
-  "version": "2.0.2",
+  "version": "2.0.3",
   "author": "Open Government Products, GovTech Singapore (https://open.gov.sg)",
   "bugs": {
     "url": "https://github.com/opengovsg/eslint-config-opengovsg/issues"
