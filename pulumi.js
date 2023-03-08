@@ -6,8 +6,9 @@ module.exports = {
   },
   // Pulumi does not have a recommended rule set, otherwise this portion should never exist
   rules: {
-    // Apply no-output-in-template-literal since it's not enabled by default
+    // Apply Pulumi's ESLint rules since nothing is enabled by default
     '@pulumi/no-output-in-template-literal': 'error',
+    '@pulumi/no-output-instance-in-template-literal': 'error',
     // Some XxxArgs definitions are written as empty interfaces
     '@typescript-eslint/no-empty-interface': 'off',
     // Sometimes `const xxx = new Resource('xxx')` makes the code more readable, despite not using `xxx` afterwards
