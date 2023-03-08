@@ -1,7 +1,7 @@
 {
   "name": "eslint-config-opengovsg",
   "description": "ESLint configs for Open Government Products",
-  "version": "2.0.2",
+  "version": "2.0.3",
   "author": "Open Government Products, GovTech Singapore (https://open.gov.sg)",
   "bugs": {
     "url": "https://github.com/opengovsg/eslint-config-opengovsg/issues"
@@ -12,7 +12,8 @@
     "eslint-config-prettier": "^8.6.0",
     "eslint-plugin-import": "^2.27.5",
     "eslint-plugin-prettier": "^4.2.1",
-    "eslint-plugin-simple-import-sort": "^10.0.0"
+    "eslint-plugin-simple-import-sort": "^10.0.0",
+    "prettier": "^2.8.4"
   },
   "engines": {
     "node": ">=14.0.0"
@@ -34,7 +35,8 @@
     "eslint-config-prettier": "^8.6.0",
     "eslint-plugin-import": "^2.27.5",
     "eslint-plugin-prettier": "^4.2.1",
-    "eslint-plugin-simple-import-sort": "^10.0.0"
+    "eslint-plugin-simple-import-sort": "^10.0.0",
+    "prettier": "^2.8.4"
   },
   "publishConfig": {
     "registry": "https://registry.npmjs.org",
