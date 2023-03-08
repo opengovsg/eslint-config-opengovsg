@@ -1,13 +1,13 @@
 {
   "name": "eslint-config-opengovsg",
   "description": "ESLint configs for Open Government Products",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "author": "Open Government Products, GovTech Singapore (https://open.gov.sg)",
   "bugs": {
     "url": "https://github.com/opengovsg/eslint-config-opengovsg/issues"
   },
   "devDependencies": {
-    "@pulumi/eslint-plugin": "^0.1.0-rc3",
+    "@pulumi/eslint-plugin": "^0.2.0",
     "@typescript-eslint/eslint-plugin": "^5.53.0",
     "eslint-config-prettier": "^8.6.0",
     "eslint-plugin-import": "^2.27.5",
@@ -28,7 +28,7 @@
   "license": "MIT",
   "main": "typescript.js",
   "peerDependencies": {
-    "@pulumi/eslint-plugin": "^0.1.0-rc3",
+    "@pulumi/eslint-plugin": "^0.2.0",
     "@typescript-eslint/eslint-plugin": "^5.53.0",
     "eslint": "^8.0.0",
     "eslint-config-prettier": "^8.6.0",
