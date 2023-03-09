@@ -20,7 +20,8 @@
     "node": ">=14.0.0"
   },
   "files": [
-    "**/*.js"
+    "**/*.js",
+    ".prettierrc"
   ],
   "homepage": "https://github.com/opengovsg/eslint-config-opengovsg#readme",
   "keywords": [
