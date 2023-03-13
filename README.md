@@ -26,5 +26,6 @@ npx install-peerdeps --dev eslint-config-opengovsg
 Depending on the usage, put one of the following into `.eslintrc`:
 
 - TypeScript (yep we use TypeScript by default in OGP: `{"extends": ["opengovsg"]}`)
+- React (`{"extends": ["opengovsg", "opengovsg/react"]}` or `{"extends": ["opengovsg/javascript", "opengovsg/react"]}`)
 - Pulumi (`{"extends": ["opengovsg", "opengovsg/pulumi"]}`)
 - JavaScript (in case you really do not need TypeScript: `{"extends": ["opengovsg/javascript"]}`)
