@@ -1,4 +1,5 @@
 module.exports = {
+  files: ['*.ts'],
   plugins: ['@pulumi', '@typescript-eslint'],
   parser: '@typescript-eslint/parser',
   parserOptions: {
