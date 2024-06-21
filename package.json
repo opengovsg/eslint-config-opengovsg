@@ -8,7 +8,7 @@
   },
   "devDependencies": {
     "@pulumi/eslint-plugin": "^0.2.0",
-    "@typescript-eslint/eslint-plugin": "^5.53.0",
+    "@typescript-eslint/eslint-plugin": "^6.21.0",
     "eslint-config-prettier": "^8.6.0",
     "eslint-import-resolver-typescript": "^3.5.3",
     "eslint-plugin-import": "^2.27.5",
@@ -34,7 +34,7 @@
   "main": "typescript.js",
   "peerDependencies": {
     "@pulumi/eslint-plugin": "^0.2.0",
-    "@typescript-eslint/eslint-plugin": "^5.53.0",
+    "@typescript-eslint/eslint-plugin": "^6.21.0",
     "eslint": "^8.0.0",
     "eslint-config-prettier": "^8.6.0",
     "eslint-import-resolver-typescript": "^3.5.3",
