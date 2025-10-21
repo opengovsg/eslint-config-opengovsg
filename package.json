@@ -1,7 +1,7 @@
 {
   "name": "eslint-config-opengovsg",
   "description": "ESLint configs for Open Government Products",
-  "version": "3.0.1",
+  "version": "3.0.1-rc1",
   "author": "Open Government Products, GovTech Singapore (https://open.gov.sg)",
   "bugs": {
     "url": "https://github.com/opengovsg/eslint-config-opengovsg/issues"
